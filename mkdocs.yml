@@ -1,0 +1,62 @@
+site_name: WotLK Extensions Documentation
+site_url: https://sitename.example
+theme:
+  favicon: assets/logo/DLL_Icon.svg
+  icon:
+    logo: fontawesome/solid/w
+  font:
+    code: Red Hat Mono
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.footer
+  palette:
+    scheme: slate
+    primary: black
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+
+extra:
+  generator: false
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com/@DEVSylian
+    - icon: simple/github
+      link: https://github.com/Sylian1337
+
+
+copyright: >
+  Copyright &copy; 2026 <strong>Sylian</strong> &bull; All rights reserved.
+  <br>
+  <small style="opacity: 0.8; font-weight: 500;">
+    <strong>Notice:</strong> This license applies strictly to the <u>written documentation content</u>. 
+    The compiled binary software (.dll) is governed separately by the project's root license.
+  </small>
+  <br>
+  <small style="opacity: 0.6;">
+    Documentation licensed under <a href="https://creativecommons.org" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>. 
+    Commercial use or credit removal of this text is strictly prohibited.
+  </small>
+  <br>
+  <small style="opacity: 0.5; font-style: italic;">
+    Documentation for WotLK Extensions, not affiliated with Blizzard Entertainment.
+  </small>
