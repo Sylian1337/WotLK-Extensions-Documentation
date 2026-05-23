@@ -175,7 +175,7 @@ World of Warcraft/
 
 Inside your WoW 3.3.5a client folder:
 
-1. Double-click **`Patcher.exe`**
+1. Drag **`WoW.exe`** onto **`Patcher.exe`**
 2. Let it apply the selected patches to `WoW.exe`
 
 !!! warning "Do Not Patch an Already Patched Client"
