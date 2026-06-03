@@ -52,7 +52,7 @@ Open **CMake GUI** (or use the CLI) and configure the project with:
 
 During configuration, CMake will expose the available **patch options**.
 
-These options control which features are compiled into **`Patcher.exe`**, allowing you to decide which client modifications will be applied when patching `WoW.exe`.
+These options control which features are compiled into **`WotLKExtensions.dll`**, allowing you to decide which client modifications will be applied when patching `WoW.exe`.
 
 !!! info "Patch Options"
     Image below shows an example of the CMake Source and Build directory configuration, the paths should match your local setup.
