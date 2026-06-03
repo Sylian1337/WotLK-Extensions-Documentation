@@ -66,7 +66,7 @@ After setting the source and build directories, click **Configure**, if anything
 Review the available patch options and enable the features you want included in the patcher.
 
 !!! info "Patch Selection"
-    Only enable the patches you intend to use. These options are compiled into `Patcher.exe` during the build process.
+    Only enable the patches you intend to use. These options are compiled into `WotLKExtensions.dll` during the build process.
     
     Below is an example of the patch options you may see in CMake:
 
